@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.JSONL = void 0;
 var JSONL = /** @class */ (function () {
     function JSONL() {
     }
@@ -15,4 +14,4 @@ var JSONL = /** @class */ (function () {
     };
     return JSONL;
 }());
-exports.JSONL = JSONL;
+exports.default = JSONL;

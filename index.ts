@@ -1,4 +1,4 @@
-export class JSONL {
+export default class JSONL {
   public static stringify(array: object[]): string {
     return array.map((object) => JSON.stringify(object)).join("\n");
   }
