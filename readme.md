@@ -1,6 +1,6 @@
 # JSONL parse stringify
 
-this util simply allow you to parse and interact with JSONL same way as you interact to JSON.
+Parse and interact with JSONL same way as you interact to JSON to parse and stringify.
 
 ## installation
 
@@ -15,8 +15,8 @@ Typescript
 ```ts
 import JSONL from "jsonl-parse-stringify";
 
-var parsed = JSONL.parse<MyType>(myJsonlString);
-var stringified = JSONL.stringify(myArray);
+const parsed: MyType[] = JSONL.parse<MyType>(myJsonlString);
+const stringified: string = JSONL.stringify(myArray);
 ```
 
 Plain Javascript
@@ -24,6 +24,6 @@ Plain Javascript
 ```js
 const JSONL = require("jsonl-parse-stringify");
 
-var parsed = JSONL.parse(myJsonlString);
-var stringified = JSONL.stringify(myArray);
+const parsed = JSONL.parse(myJsonlString);
+const stringified = JSONL.stringify(myArray);
 ```
