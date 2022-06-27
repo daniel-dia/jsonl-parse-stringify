@@ -3,10 +3,20 @@
   "version": "1.0.1",
   "description": "A simple typescript JSONL Parse and Stringify util",
   "main": "index.js",
-  "repository": "https://github.com/daniel-dia/jsonl-parse-stringify.git",
-  "scripts": {
-    "build": "tsc"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daniel-dia/jsonl-parse-stringify.git"
   },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "keywords": [
     "json",
     "jsonl",
@@ -16,6 +26,6 @@
   "author": "daniel santos <daniel.dia@outlook.com>",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.1.5"
+    "typescript": "^4.7.3"
   }
 }
