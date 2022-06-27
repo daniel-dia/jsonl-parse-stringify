@@ -1,6 +1,6 @@
 {
   "name": "jsonl-parse-stringify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple typescript JSONL Parse and Stringify util",
   "main": "index.js",
   "repository": {
