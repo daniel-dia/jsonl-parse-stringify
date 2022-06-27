@@ -10,8 +10,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "version": "git add -A src",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "version": "git add -A src"
   },
   "files": [
     "index.js",
